@@ -52,7 +52,7 @@ const App = () => {
               onChange={(e) => setSearch(e.target.value)}
               allowClear
             />
-            <input type="submit" value="search" className="ss" />
+            <input type="submit" value="search" title="Click me" className="ss" />
           </span>
         </form>
         <div className="row ">

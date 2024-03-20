@@ -6,6 +6,9 @@
 }
 .cc{
   color: white;
+  height: 40px;
+  box-shadow: 4px 8px 16px whitesmoke;
+  border-radius: 18px;
 }
 .lod{
   color: white;
