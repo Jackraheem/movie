@@ -13,7 +13,7 @@ const App = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     setLoading(true);
-    fetch(`http://www.omdbapi.com/?s=${search}&apikey=263d22d8`)
+    fetch(`https://www.omdbapi.com/?s=${search}&apikey=263d22d8`)
       .then((response) => response.json())
       .then((value) => {
         setData(value.Search || []);
@@ -52,7 +52,7 @@ const App = () => {
               onChange={(e) => setSearch(e.target.value)}
               allowClear
             />
-            <input type="submit" value="search" title="Click me" className="ss" />
+            <input type="submit" value="search" title="Click" className="ss" />
           </span>
         </form>
         <div className="row ">
